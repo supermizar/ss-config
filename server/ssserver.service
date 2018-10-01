@@ -1,0 +1,11 @@
+[Unit]
+Description=Shadowsocks Server
+After=network.target
+
+[Service]
+ExecStartPre=/bin/sh -c 'ulimit -n 51200'
+ExecStart=/usr/local/bin/ssserver -c /etc/shadowsocks/server.json
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
