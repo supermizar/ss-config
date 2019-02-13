@@ -1,9 +1,9 @@
 {
-    "server":"remote server ip",
-    "server_port":remote_port,
+    "server":"149.28.204.22",
+    "server_port":8981,
     "local_address": "127.0.0.1",
     "local_port":1080,
-    "password":"passwd",
+    "password":"QiuRT$",
     "timeout":300,
     "method":"aes-256-cfb",
     "fast_open": false,
