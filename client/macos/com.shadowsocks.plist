@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.shadowsocks.plist</string><!--这个名字必须和文件名一致-->
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/local/bin/sslocal</string>
+        <string>-c</string>
+        <string>/etc/client.json</string>
+        <string>start</string>
+    </array>
+    <key>KeepAlive</key><!--后台保持运行-->
+    <false/>
+    <key>RunAtLoad</key><!--加载时候运行-->
+    <true/>
+</dict>
+</plist>
