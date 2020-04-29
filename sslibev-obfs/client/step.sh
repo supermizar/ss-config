@@ -1,4 +1,7 @@
+#brew update
+#brew install shadowsocks-libev
+#brew install simple-obfs
+sudo vi /usr/local/etc/shadowsocks-libev.json
 sudo cp com.shadowsocks.plist /Library/LaunchDaemons/
-sudo cp client.json /etc/
 sudo launchctl stop com.shadowsocks.plist
 sudo launchctl start com.shadowsocks.plist

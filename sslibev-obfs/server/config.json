@@ -1,0 +1,11 @@
+{
+    "server":"0.0.0.0",
+    "mode":"tcp_and_udp",
+    "server_port":443,
+    "local_port":1080,
+    "password":"your-password",
+    "timeout":100,
+    "method":"chacha20-ietf-poly1305",
+    "plugin": "obfs-server",
+    "plugin_opts": "obfs=tls"
+}

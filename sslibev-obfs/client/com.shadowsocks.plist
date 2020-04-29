@@ -6,10 +6,9 @@
     <string>com.shadowsocks.plist</string><!--这个名字必须和文件名一致-->
     <key>ProgramArguments</key>
     <array>
-        <string>/usr/local/bin/sslocal</string>
+        <string>/usr/local/bin/ss-local</string>
         <string>-c</string>
-        <string>/etc/client.json</string>
-        <string>start</string>
+        <string>/usr/local/etc/shadowsocks-libev.json</string>
     </array>
     <key>KeepAlive</key><!--后台保持运行-->
     <false/>
